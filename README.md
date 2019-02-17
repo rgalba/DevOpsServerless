@@ -1,8 +1,9 @@
-# TODO API using Serverless framwork + Python
+# TODO API using Serverless framework + Python
 
 
-https://github.com/serverless/examples/tree/master/aws-python-rest-api-with-dynamodb
+based on https://github.com/serverless/examples/tree/master/aws-python-rest-api-with-dynamodb
 
+# Serverless Deploy
 ```sh
 $ sls deploy
 Serverless: Packaging service...
