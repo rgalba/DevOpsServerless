@@ -1,0 +1,29 @@
+{
+  "name": "todo-api",
+  "version": "1.0.0",
+  "description": "TODO api serverless",
+  "main": " ",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "serverless": "^1.37.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rgalba/DevOpsServerless.git"
+  },
+  "keywords": [
+    "serverless"
+  ],
+  "author": "Rodrigo Galba Miranda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rgalba/DevOpsServerless/issues"
+  },
+  "homepage": "https://github.com/rgalba/DevOpsServerless#readme"
+}
