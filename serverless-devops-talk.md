@@ -2,9 +2,9 @@
 
 ## Agenda
 1. Introduction to serverless
+2. DevOps definition
 
-
-# Introduction to serverless
+# Section 1: Introduction to serverless
 
 > Serverless: run code without a server!
 
@@ -57,7 +57,21 @@ Another BaaS service is Firebase, provided by Google. Firebase is a database ser
 - Lack of tolling
 - Complexity with architecture
 - Drawback in implementation
+---
+# Section 2: DevOps Definition
 
+> *Devops is just CI/CD.*
+
+*DevOps is a collaboration of tools, processes, and feedback.*
+
+DevOps is a safety way to deploy even for user than for developers.
+
+- Automation to decrease project`s complexity
+- Logging or monitoring apps(functions)
+- Continuous testing before production
+
+
+---
 references
 
 - “DevOps for Serverless Applications. Shashikant Bangera”
