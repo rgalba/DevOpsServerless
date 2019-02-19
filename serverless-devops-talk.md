@@ -4,6 +4,7 @@
 1. Introduction to serverless
 2. DevOps definition
 3. A real app
+4. Applying DevOps to SLS
 
 # Section 1: Introduction to serverless
 
@@ -98,7 +99,24 @@ stack:
 
 [manifest.yml](./serverless.yml)
 
+### Section 4: Applying DevOps to a serverless app
+
+#### Deployment of a Lambda function
+```sh
+aws configure
+cd DevOpsServerless
+sls deploy
+```
+
+- AWS Lambda with DevOps
+- Serverless with CodeStar
+- Blue and green deployment with AWS Lambda
+- The GitHub and Jenkins pipeline using Serverless Framework
+- Setting up Jenkins for a serverless application
+
+
 ---
 references
 
 - “DevOps for Serverless Applications. Shashikant Bangera”
+- https://github.com/nerdguru/serverlessTodos/blob/master/docs/codePipeline.md
