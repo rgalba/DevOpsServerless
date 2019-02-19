@@ -5,4 +5,4 @@ phases:
       - npm install
   build:
     commands:
-      - ./node_modules/.bin/serverless deploy --stage cicd | tee deploy.out
+      - ./node_modules/.bin/serverless deploy --stage dev | tee deploy.out
