@@ -3,6 +3,7 @@
 ## Agenda
 1. Introduction to serverless
 2. DevOps definition
+3. A real app
 
 # Section 1: Introduction to serverless
 
@@ -67,9 +68,35 @@ Another BaaS service is Firebase, provided by Google. Firebase is a database ser
 DevOps is a safety way to deploy even for user than for developers.
 
 - Automation to decrease project`s complexity
+- Continous integration (protect devs against themselves)
 - Logging or monitoring apps(functions)
 - Continuous testing before production
+- Release management
+- Monitoring, alarms and metrics
 
+# Section 3: A real app
+
+application: TODO list API
+stack:
+- AWS Lambda
+- Serverless framework
+- DynamoDB
+- Python
+
+### Why to use a serverless framework?
+
+- Simplify deployment
+- Version control infrastructure and resources definition
+- Release management (rollout and rollback)
+- Multi language support
+- Manage a single function or a whole service
+- Plugins
+- Metrics
+- Multi environment control
+
+### Talk is cheap. Show me the `manifest.yml`
+
+[manifest.yml](./serverless.yml)
 
 ---
 references
