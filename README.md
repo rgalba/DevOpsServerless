@@ -3,6 +3,8 @@
 
 based on https://github.com/serverless/examples/tree/master/aws-python-rest-api-with-dynamodb
 
+See `Serverless DevOps` doc [here][1].
+
 # Serverless Deploy
 ```sh
 $ sls deploy
@@ -97,3 +99,4 @@ Example Result:
 curl -X DELETE https://XXXXXXX.execute-api.us-east-1.amazonaws.com/dev/todos/<id>
 ```
 
+[1]: ./serverless-devops-talk.md
